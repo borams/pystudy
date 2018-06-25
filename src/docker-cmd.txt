@@ -1,0 +1,11 @@
+docker run --name bomysql -e MYSQL_ROOT_PASSWORD=root -v mysql_docker_volume:/var/lib/mysql -p 3306:3306 -d mysql/mysql-server
+
+create database vsearchlogDB;
+
+create table log (id int auto_increment primary key,
+       ts timestamp default current_timestamp,
+       phrase varchar(128),
+       letters varchar(32),
+       ip varchar(16) not null
+       , browser_string varchar(256) not null,
+       results varchar(64) not null);

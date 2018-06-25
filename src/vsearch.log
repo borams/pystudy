@@ -1,0 +1,4 @@
+2018-06-21 00:16:10.882317|ImmutableMultiDict([('phrase', 'test ees'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0|{'e'}
+2018-06-21 00:16:42.801902|ImmutableMultiDict([('phrase', 'Dragon ball'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0|{'a', 'o'}
+2018-06-21 00:16:58.554361|ImmutableMultiDict([('phrase', 'Kubernates study group'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0|{'u', 'a', 'o', 'e'}
+2018-06-23 04:07:24.364853|ImmutableMultiDict([('phrase', 'This is another test'), ('letters', 'aeiou')])|172.18.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36|{'a', 'o', 'i', 'e'}

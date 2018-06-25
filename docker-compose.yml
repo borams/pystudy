@@ -1,0 +1,19 @@
+version: '3.6'
+
+services:
+  vsearch-web:
+    build: .
+    volumes:
+      - ./src:/app
+    ports:
+      - 8001:80
+  
+  db:
+    image: mysql/mysql-server:5.6
+    volumes:
+      - ./mysql_docker_volume:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - 3306:3306
